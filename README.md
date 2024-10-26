@@ -15,3 +15,22 @@ const rule1 = "((age > 30 AND department = 'Sales') OR (age < 25 AND department 
 const rule2 = "((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)";
 
 // Combine and evaluate the rules based on user input.
+
+# Rule Engine Eligibility Checker
+
+This project is a Node.js-based Rule Engine that determines the eligibility of a user based on their profile attributes (age, department, salary, and experience). It parses complex logical expressions into an Abstract Syntax Tree (AST) and evaluates them according to user input. The eligibility rules are flexible, supporting both **AND** and **OR** operators and various comparison operations.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 12 or higher)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
+   cd repo-name
+
