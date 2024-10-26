@@ -22,19 +22,47 @@ const rule2 = "((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR 
 
 This project is a Node.js-based Rule Engine that determines the eligibility of a user based on their profile attributes (age, department, salary, and experience). It parses complex logical expressions into an Abstract Syntax Tree (AST) and evaluates them according to user input. The eligibility rules are flexible, supporting both **AND** and **OR** operators and various comparison operations.
 
+# Project Title
+
 ## Getting Started
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (version 12 or higher)
+- Node.js (version 12 or higher)
 
 ### Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/repo-name.git
    cd repo-name
+   ```
+
+2. Open the project in VS Code:
+
+   ```bash
+   code .
+   ```
+
+3. Run the application:
+
+   In the terminal, execute the following command:
+
+   ```bash
+   node index.js
+   ```
+
+### Usage
+
+You will be prompted to input the following details:
+
+- Age
+- Department
+- Salary
+- Experience
+
+After entering the required information, the application will calculate and provide output indicating whether you are eligible or not.
 
 
 
