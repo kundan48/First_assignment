@@ -15,6 +15,8 @@ const rule1 = "((age > 30 AND department = 'Sales') OR (age < 25 AND department 
 const rule2 = "((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)";
 
 // Combine and evaluate the rules based on user input.
+```
+
 
 # Rule Engine Eligibility Checker
 
@@ -33,4 +35,6 @@ This project is a Node.js-based Rule Engine that determines the eligibility of a
    ```bash
    git clone https://github.com/your-username/repo-name.git
    cd repo-name
+
+
 
