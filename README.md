@@ -62,7 +62,7 @@ You will be prompted to input the following details:
 - Salary
 - Experience
 
-After entering the required information, the application will calculate and provide output indicating whether you are eligible or not.
+After entering the required information, the application will calculate through Rule 1 and Rule2(provided problem statement condition) and will provide output indicating whether you are eligible or not.
 
 
 
