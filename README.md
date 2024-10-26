@@ -58,7 +58,7 @@ This project is a Node.js-based Rule Engine that determines the eligibility of a
 You will be prompted to input the following details:
 
 - Age
-- Department
+- Department(Sales or Marketing)
 - Salary
 - Experience
 
